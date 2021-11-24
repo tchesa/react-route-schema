@@ -1,3 +1,18 @@
+# Setup Firebase
+
+Create a `config.json` file at `src/services/firebase` with the follow structure:
+
+```json
+{
+  "apiKey": "<apiKey>",
+  "authDomain": "<authDomain>",
+  "projectId": "<projectId>",
+  "storageBucket": "<storageBucket>",
+  "messagingSenderId": "<messagingSenderId>",
+  "appId": "<appId>",
+}
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
